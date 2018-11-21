@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>qa profile</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://app.powerbi.com/groups/me/reports/18e25e0f-a9c3-4bca-8d1e-48ec0f56c7f7?ctid=bcdf20ca-ddec-4f48-a7f4-dcc110f757f5'</initValue>
+      <name>loginURLMultipleAxes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'selvarajs@visualbi.com'</initValue>
+      <name>userName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'UR99BsDpRtLYSIlAg+vC9A=='</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Title Text'</initValue>
+      <name>lbl_titleText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Font Family'</initValue>
+      <name>lbl_fontFamily</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Font family'</initValue>
+      <name>lbl_fontfamily</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Arial'</initValue>
+      <name>fontType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Font Size'</initValue>
+      <name>lbl_fontSize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'20'</initValue>
+      <name>fontSize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Color'</initValue>
+      <name>lbl_color</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Title'</initValue>
+      <name>toggle_title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Multiple Axis QA'</initValue>
+      <name>titleText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Horizontal Alignment'</initValue>
+      <name>lbl_horizontal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Vertical Alignment'</initValue>
+      <name>lbl_vertical</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Number of Decimal'</initValue>
+      <name>lbl_noOfDecimal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Thousand Seperator'</initValue>
+      <name>lbl_thousandSeparator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Decimal Seperator'</initValue>
+      <name>lbl_decimalSeparator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Scaling Factor'</initValue>
+      <name>lbl_scalingFactor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Million'</initValue>
+      <name>ScalingFactor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Center'</initValue>
+      <name>horizontalAlignment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Middle'</initValue>
+      <name>verticalAlignment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2'</initValue>
+      <name>NumberOfDecimal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>','</initValue>
+      <name>ThousandSeparator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/'</initValue>
+      <name>DecimalSeparator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Prefix'</initValue>
+      <name>lbl_Prefix</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'P'</initValue>
+      <name>Prefix</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Suffix'</initValue>
+      <name>lbl_suffix</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'S'</initValue>
+      <name>Suffix</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Background Color'</initValue>
+      <name>lbl_BackgroundColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Rotation'</initValue>
+      <name>lbl_Rotation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'25'</initValue>
+      <name>Rotation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'X'</initValue>
+      <name>lbl_X</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Y'</initValue>
+      <name>lbl_Y</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12'</initValue>
+      <name>X</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12'</initValue>
+      <name>Y</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Overlap'</initValue>
+      <name>toggle_Overlap</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Shared Tooltip'</initValue>
+      <name>toggle_sharedTooltip</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Shape'</initValue>
+      <name>lbl_shape</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Square'</initValue>
+      <name>Shape</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Align Threshold'</initValue>
+      <name>toggle_AlignThreshold</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Enable Deviation'</initValue>
+      <name>toggle_enableDeviation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Enable Hierarchy'</initValue>
+      <name>toggle_EnableHierarchy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Enable PNG'</initValue>
+      <name>toggle_PNG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Enable SVG'</initValue>
+      <name>toggle_SVG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Enable JPEG'</initValue>
+      <name>toggle_JPEG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Enable PDF'</initValue>
+      <name>toggle_pdf</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Export File Name'</initValue>
+      <name>lbl_ExportFileName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Chart Width'</initValue>
+      <name>lbl_ChartWidth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Chart Height'</initValue>
+      <name>lbl_ChartHeight</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Chart Scale'</initValue>
+      <name>lbl_ChartScale</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'seriespatternconfig'</initValue>
+      <name>lbl_seriespattern</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'{&quot;Sum(Table1.CustomerHierarchy - Customer)&quot;:&quot;&quot;,&quot;Avg(Table1.CustomerHierarchy - Postal Code)&quot;:&quot;&quot;,&quot;Avg(Table1.Average of Postal Code)&quot;:&quot;&quot;}'</initValue>
+      <name>seriespatternconfig</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Font color'</initValue>
+      <name>lbl_Fontcolor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Alignment'</initValue>
+      <name>lbl_Alignment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Right'</initValue>
+      <name>Alignment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Text size'</initValue>
+      <name>lbl_TextSize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Transparency'</initValue>
+      <name>lbl_Transparency</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'78'</initValue>
+      <name>Transparency</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'X Position'</initValue>
+      <name>lbl_XPosition</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Y Position'</initValue>
+      <name>lbl_YPosition</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Width'</initValue>
+      <name>lbl_Width</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1200'</initValue>
+      <name>Width</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Height'</initValue>
+      <name>lbl_Height</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'680'</initValue>
+      <name>Height</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Alt Text'</initValue>
+      <name>lbl_AltText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sample Chart'</initValue>
+      <name>AltText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Border'</initValue>
+      <name>lbl_Border</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Icon color'</initValue>
+      <name>lbl_IconColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Visual information icon'</initValue>
+      <name>toggle_informationIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Visual warning icon'</initValue>
+      <name>toggle_warningIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Visual error icon'</initValue>
+      <name>toggle_errorIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Drill on dropdown'</initValue>
+      <name>toggle_drillOnDropdown</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Drill up icon'</initValue>
+      <name>toggle_drillUpIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Drill down icon'</initValue>
+      <name>toggle_drillDownIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Show next level icon'</initValue>
+      <name>toggle_nextLevelIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Expand to next level icon'</initValue>
+      <name>toggle_expandnxtLevelIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pin icon'</initValue>
+      <name>toggle_pinIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Focus mode icon'</initValue>
+      <name>toggle_focusmodeIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'See data layout icon'</initValue>
+      <name>toggle_dataLayoutIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'More options icon'</initValue>
+      <name>toggle_moreOptionIcon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Title'</initValue>
+      <name>sec_Title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'X Axis'</initValue>
+      <name>sec_XAxis</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Legend'</initValue>
+      <name>sec_Legend</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Data Label'</initValue>
+      <name>sec_DataLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tooltip'</initValue>
+      <name>sec_Tooltip</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Data Label Number Formatting'</initValue>
+      <name>sec_DataLabelNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tooltip Number Formatting'</initValue>
+      <name>sec_TooltipNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Threshold'</initValue>
+      <name>sec_Threshold</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Deviation'</initValue>
+      <name>sec_Deviation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hierarchy'</initValue>
+      <name>sec_Hierarchy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Exporter'</initValue>
+      <name>sec_Exporter</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Series Pattern'</initValue>
+      <name>sec_Seriespattern</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Background'</initValue>
+      <name>sec_Background</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Lock aspect'</initValue>
+      <name>sec_lockAspect</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'General'</initValue>
+      <name>sec_general</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Border'</initValue>
+      <name>sec_Border</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Visual header'</initValue>
+      <name>sec_visualHeader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Black, 20% lighter'</initValue>
+      <name>color</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Download PNG image'</initValue>
+      <name>lbl_PNG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Download JPEG image'</initValue>
+      <name>lbl_JPEG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Download PDF document'</initValue>
+      <name>lbl_PDF</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Download SVG vector image'</initValue>
+      <name>lbl_SVG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Legend Title'</initValue>
+      <name>lbl_legendTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Background color'</initValue>
+      <name>lbl_backgroundcolor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Title'</initValue>
+      <name>lbl_Title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Axis Title'</initValue>
+      <name>lbl_axisTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MultipleAxesChart'</initValue>
+      <name>chartName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'seriespatternconfig'</initValue>
+      <name>lbl_seriespatternconfig</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Appearance'</initValue>
+      <name>sec_Appearance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Chart Type'</initValue>
+      <name>lbl_ChartType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bar Deviation'</initValue>
+      <name>ChartType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Chart Area Size'</initValue>
+      <name>lbl_ChartAreaSize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'55'</initValue>
+      <name>chartAreaSize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Variance Area Size'</initValue>
+      <name>lbl_VarianceAreaSize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'25'</initValue>
+      <name>VarianceAreaSize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Variance % Area Size'</initValue>
+      <name>lbl_AreaSize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'35'</initValue>
+      <name>AreaSize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://app.powerbi.com/groups/me/reports/e2ebdbf7-fdfb-443e-96b2-537052dc9448?ctid=bcdf20ca-ddec-4f48-a7f4-dcc110f757f5'</initValue>
+      <name>loginURLAdvanced</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

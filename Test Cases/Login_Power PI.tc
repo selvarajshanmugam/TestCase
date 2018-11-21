@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to Power PI with respective username and Password</description>
+   <name>Login_Power PI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f60a0b2b-ccb4-4e37-bfa5-5ae0854d9673</testCaseGuid>
+</TestCaseEntity>
