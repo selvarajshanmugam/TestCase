@@ -17,9 +17,27 @@ CustomKeywords.'com.powerbi.components.ChartSelect.showSetting'(GlobalVariable.s
 
 WebUI.delay(2)
 
+List<String> initialValue = CustomKeywords.'com.powerbi.components.ChartSelect.getDeviation'()
+
 CustomKeywords.'com.powerbi.components.ChartSelect.enableToggle'(GlobalVariable.toggle_enableDeviation)
 
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('VisualObject/rect_highcharts series group series-0'))
+
+WebUI.click(findTestObject('VisualObject/rect_highcharts series group series-0'))
+
+WebUI.mouseOver(findTestObject('VisualObject/text_highcharts data label series -2'))
+
+WebUI.verifyElementPresent(findTestObject('VisualObject/rect_deviation'), 30)
+
 WebUI.click(findTestObject('Page_MultipleAxesChart - Power BI/div_Revert to default'))
+
+WebUI.delay(2)
+
+List<String> finalValue = CustomKeywords.'com.powerbi.components.ChartSelect.getDeviation'()
+
+CustomKeywords.'com.powerbi.components.ChartSelect.compareList'(initialValue, finalValue)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.hideSetting'(GlobalVariable.sec_Deviation)
 

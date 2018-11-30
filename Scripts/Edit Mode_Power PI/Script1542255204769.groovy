@@ -21,6 +21,8 @@ WebUI.waitForPageLoad(60)
 
 WebUI.delay(2)
 
+WebUI.waitForElementPresent(findTestObject('Page_MultipleAxesChart - Power BI/div_visualTitleBackground'), 0)
+
 WebUI.mouseOver(findTestObject('Page_MultipleAxesChart - Power BI/div_visualTitleBackground'))
 
 WebUI.click(findTestObject('Page_MultipleAxesChart - Power BI/div_visualTitleBackground'))

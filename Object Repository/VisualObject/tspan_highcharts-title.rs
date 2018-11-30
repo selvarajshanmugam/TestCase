@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tspan_highcharts-title</name>
+   <tag></tag>
+   <elementGuidId>937eaf40-be59-4349-9ef5-ddc4aba67a62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;visual-sandbox&quot;]//*[name()=&quot;svg&quot;]//*[@class=&quot;highcharts-title&quot;]/*[name()=&quot;tspan&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <value>//*[@class=&quot;visual-sandbox&quot;]//*[name()=&quot;svg&quot;]//*[@class=&quot;highcharts-title&quot;]/*[name()=&quot;tspan&quot;]</value>
+   </webElementXpaths>
+</WebElementEntity>

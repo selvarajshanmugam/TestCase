@@ -17,6 +17,8 @@ CustomKeywords.'com.powerbi.components.ChartSelect.showSetting'(GlobalVariable.s
 
 WebUI.delay(2)
 
+List<String> initialValue = CustomKeywords.'com.powerbi.components.ChartSelect.getAppearance'()
+
 CustomKeywords.'com.powerbi.components.ChartSelect.selectValue'(GlobalVariable.lbl_ChartType, GlobalVariable.ChartType)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_ChartAreaSize, GlobalVariable.chartAreaSize)
@@ -24,6 +26,12 @@ CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_VarianceAreaSize, GlobalVariable.VarianceAreaSize)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_AreaSize, GlobalVariable.AreaSize)
+
+WebUI.delay(2)
+
+List<String> finalValue = CustomKeywords.'com.powerbi.components.ChartSelect.getAppearance'()
+
+CustomKeywords.'com.powerbi.components.ChartSelect.compareList'(initialValue, finalValue)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.hideSetting'(GlobalVariable.sec_Appearance)
 

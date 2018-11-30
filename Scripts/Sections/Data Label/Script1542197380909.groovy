@@ -17,21 +17,55 @@ CustomKeywords.'com.powerbi.components.ChartSelect.EnableSetting'(GlobalVariable
 
 WebUI.delay(2)
 
-CustomKeywords.'com.powerbi.components.ChartSelect.setColor'(GlobalVariable.lbl_BackgroundColor, GlobalVariable.color)
+List<String> initialValue = CustomKeywords.'com.powerbi.components.ChartSelect.getDataLabel'()
+
+not_run: CustomKeywords.'com.powerbi.components.ChartSelect.setColor'(GlobalVariable.lbl_BackgroundColor, GlobalVariable.color)
+
+not_run: WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeValue'('VisualObject/rect_highcharts-data-label', 
+        GlobalVariable.attr_fill), GlobalVariable.color, false)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_Rotation, GlobalVariable.Rotation)
 
+WebUI.delay(2)
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkRotationValue'('VisualObject/text_highcharts data label series-0'), 
+    GlobalVariable.Rotation, false)
+
 CustomKeywords.'com.powerbi.components.ChartSelect.selectValue'(GlobalVariable.lbl_fontFamily, GlobalVariable.fontType)
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeValue'('VisualObject/text_highcharts data label series-0', 
+        GlobalVariable.attr_fontfamily), GlobalVariable.fontType, false)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_fontSize, GlobalVariable.fontSize)
 
+WebUI.delay(2)
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeValue'('VisualObject/text_highcharts data label series-0', 
+        GlobalVariable.attr_fontsize), GlobalVariable.font_size_pxl, false)
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_X, GlobalVariable.X)
+
+WebUI.delay(2)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_Y, GlobalVariable.Y)
 
+WebUI.delay(2)
+
 CustomKeywords.'com.powerbi.components.ChartSelect.enableToggle'(GlobalVariable.toggle_Overlap)
 
+WebUI.verifyElementNotHasAttribute(findTestObject('VisualObject/g_highcharts data label_2'), 'visibility', 30)
+
+CustomKeywords.'com.powerbi.components.ChartSelect.enableToggle'(GlobalVariable.toggle_ShowFirstLast)
+
+WebUI.verifyElementNotPresent(findTestObject('VisualObject/tspan_highcharts-data-label_2'), 30)
+
 WebUI.click(findTestObject('Page_MultipleAxesChart - Power BI/div_Revert to default'))
+
+WebUI.delay(2)
+
+List<String> finalValue = CustomKeywords.'com.powerbi.components.ChartSelect.getDataLabel'()
+
+CustomKeywords.'com.powerbi.components.ChartSelect.compareList'(initialValue, finalValue)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.hideSetting'(GlobalVariable.sec_DataLabel)
 

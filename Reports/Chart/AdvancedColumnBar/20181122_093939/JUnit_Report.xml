@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdvancedColumnBar" time="164" tests="17" failures="0" errors="0">
+   <testsuite name="AdvancedColumnBar" tests="17" failures="0" errors="0" time="164" timestamp="2018-11-22 09:39:46" hostname="selvarajs - VISUALBI-L091.VISUALBI.LOCAL" id="Test Suites/Chart/AdvancedColumnBar">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\selvarajs\\git\\TestCase\\Reports\\Chart\\AdvancedColumnBar\\20181122_093939"/>
+         <property name="logFiles" value="C:\\Users\\selvarajs\\git\\TestCase\\Reports\\Chart\\AdvancedColumnBar\\20181122_093939\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="selvarajs - VISUALBI-L091.VISUALBI.LOCAL"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.0.1.36"/>
+         <property name="sessionId" value="22a2fae87815d3982b648b6264c85540"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login_Power PI" classname="Test Cases/Login_Power PI" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:39:48 - [TEST_CASE][PASSED] - Test Cases/Login_Power PI: Test Cases/Login_Power PI
+
+2018-11-22 09:39:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-22 09:39:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-22 09:39:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-22 09:39:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-22 09:39:57 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-11-22 09:39:57 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-11-22 09:39:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.powerbi.com/groups/me/reports/e2ebdbf7-fdfb-443e-96b2-537052dc9448?ctid=bcdf20ca-ddec-4f48-a7f4-dcc110f757f5' successfully
+
+2018-11-22 09:40:01 - [MESSAGE][PASSED] - Navigate to 'https://app.powerbi.com/groups/me/reports/e2ebdbf7-fdfb-443e-96b2-537052dc9448?ctid=bcdf20ca-ddec-4f48-a7f4-dcc110f757f5' successfully
+
+2018-11-22 09:40:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-22 09:40:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-22 09:40:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Sign in  Microsoft Power BI/a_Sign in' is visible
+
+2018-11-22 09:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign in  Microsoft Power BI/a_Sign in' is visible
+
+2018-11-22 09:40:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in  Microsoft Power BI/a_Sign in' is clicked on
+
+2018-11-22 09:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Microsoft Power BI/a_Sign in' is clicked on
+
+2018-11-22 09:40:06 - [TEST_STEP][PASSED] - setText: Text 'selvarajs@visualbi.com' is set on object 'Object Repository/Page_Sign in to your account/input_Sign in_loginfmt'
+
+2018-11-22 09:40:06 - [MESSAGE][PASSED] - Text 'selvarajs@visualbi.com' is set on object 'Object Repository/Page_Sign in to your account/input_Sign in_loginfmt'
+
+2018-11-22 09:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2018-11-22 09:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2018-11-22 09:40:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:40:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:40:08 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Sign in to your account/input_Enter password_passwd'
+
+2018-11-22 09:40:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to your account/input_Enter password_passwd'
+
+2018-11-22 09:40:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_Forgot my password_idSIB' is clicked on
+
+2018-11-22 09:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_Forgot my password_idSIB' is clicked on
+
+2018-11-22 09:40:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to your account/input_concat(Don  t show this' is clicked on
+
+2018-11-22 09:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to your account/input_concat(Don  t show this' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Mode_Power PI" classname="Test Cases/Edit Mode_Power PI" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:40:16 - [TEST_CASE][PASSED] - Test Cases/Edit Mode_Power PI: Test Cases/Edit Mode_Power PI
+
+2018-11-22 09:40:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_MultipleAxesChart - Power BI/div_chart' is present
+
+2018-11-22 09:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MultipleAxesChart - Power BI/div_chart' is present
+
+2018-11-22 09:40:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/span_Edit report' is clicked on
+
+2018-11-22 09:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/span_Edit report' is clicked on
+
+2018-11-22 09:40:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-22 09:40:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-22 09:40:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:40:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:40:24 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_visualTitleBackground' is hovered
+
+2018-11-22 09:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_visualTitleBackground' is hovered
+
+2018-11-22 09:40:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_visualTitleBackground' is clicked on
+
+2018-11-22 09:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_visualTitleBackground' is clicked on
+
+2018-11-22 09:40:25 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_MultipleAxesChart - Power BI/i__glyphicon pbi-glyph-more gl' is present
+
+2018-11-22 09:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MultipleAxesChart - Power BI/i__glyphicon pbi-glyph-more gl' is present
+
+2018-11-22 09:40:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/i__glyphicon pbi-glyph-more gl' is clicked on
+
+2018-11-22 09:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/i__glyphicon pbi-glyph-more gl' is clicked on
+
+2018-11-22 09:40:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/h6_Edit' is clicked on
+
+2018-11-22 09:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/h6_Edit' is clicked on
+
+2018-11-22 09:40:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/i_sectionIcon format' is clicked on
+
+2018-11-22 09:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/i_sectionIcon format' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Title" classname="Test Cases/Sections/Title" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:40:28 - [TEST_CASE][PASSED] - Test Cases/Sections/Title: Test Cases/Sections/Title
+
+2018-11-22 09:40:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/header_Title ' is clicked on
+
+2018-11-22 09:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/header_Title ' is clicked on
+
+2018-11-22 09:40:29 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:40:30 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:31 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:40:31 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:40:31 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:33 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:40:33 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-22 09:40:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-22 09:40:34 - [TEST_STEP][PASSED] - setText: Text '20' is set on object 'Object Repository/Page_MultipleAxesChart - Power BI/input_fontSize'
+
+2018-11-22 09:40:35 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Page_MultipleAxesChart - Power BI/input_fontSize'
+
+2018-11-22 09:40:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:40:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:40:37 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:40:37 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:38 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:40:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to Default_Title' is clicked on
+
+2018-11-22 09:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to Default_Title' is clicked on
+
+2018-11-22 09:40:39 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:40:39 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:40:39 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/X Axis" classname="Test Cases/Sections/X Axis" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:40:39 - [TEST_CASE][PASSED] - Test Cases/Sections/X Axis: Test Cases/Sections/X Axis
+
+2018-11-22 09:40:40 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.EnableSetting: com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:40:40 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:41 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:40:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:40:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:40:43 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:40:43 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:43 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:40:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:40:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:40:45 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:40:45 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:46 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:40:46 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:40:46 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:47 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:40:47 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.enableToggle: com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:40:47 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:48 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:40:48 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:40:49 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:49 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:40:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:40:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:40:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:40:51 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:40:52 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:40:52 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Legend" classname="Test Cases/Sections/Legend" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:40:52 - [TEST_CASE][PASSED] - Test Cases/Sections/Legend: Test Cases/Sections/Legend
+
+2018-11-22 09:40:52 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.EnableSetting: com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:40:52 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:53 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:40:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:40:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:40:55 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:40:55 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:55 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:40:55 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:40:56 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:56 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:40:56 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.enableToggle: com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:40:56 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:57 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:40:57 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:40:57 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:58 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:40:58 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:40:58 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:40:59 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:40:59 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:00 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:00 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:01 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:41:02 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:41:02 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Data Label" classname="Test Cases/Sections/Data Label" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:41:02 - [TEST_CASE][PASSED] - Test Cases/Sections/Data Label: Test Cases/Sections/Data Label
+
+2018-11-22 09:41:02 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.EnableSetting: com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:41:02 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:03 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:41:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:41:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:41:05 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:05 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:05 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:05 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:06 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:06 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:06 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:06 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:06 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:06 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:07 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:08 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:08 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:08 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:08 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:08 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:08 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:10 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:10 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.enableToggle: com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:41:10 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:10 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:41:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:11 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:41:11 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:41:11 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Tooltip" classname="Test Cases/Sections/Tooltip" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:41:11 - [TEST_CASE][PASSED] - Test Cases/Sections/Tooltip: Test Cases/Sections/Tooltip
+
+2018-11-22 09:41:12 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.EnableSetting: com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:41:12 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:12 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:41:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:41:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:41:14 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:14 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:15 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:15 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:15 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:16 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:16 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:16 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:17 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:17 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:17 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:18 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:18 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.enableToggle: com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:41:18 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:19 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:41:19 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:19 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:20 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:20 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:41:21 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:41:22 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Appearance" classname="Test Cases/Sections/Appearance" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:41:22 - [TEST_CASE][PASSED] - Test Cases/Sections/Appearance: Test Cases/Sections/Appearance
+
+2018-11-22 09:41:22 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.showSetting: com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:41:22 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:23 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:41:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:41:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:41:25 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:25 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:25 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:25 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:25 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:26 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:26 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:26 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:27 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:27 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:27 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:29 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:29 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:41:29 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:41:29 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Data Label Number Formatting" classname="Test Cases/Sections/Data Label Number Formatting" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:41:29 - [TEST_CASE][PASSED] - Test Cases/Sections/Data Label Number Formatting: Test Cases/Sections/Data Label Number Formatting
+
+2018-11-22 09:41:29 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.showSetting: com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:41:30 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:30 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:41:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:41:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:41:32 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:32 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:32 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:32 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:32 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:33 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:33 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:33 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:33 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:33 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:33 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:34 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:34 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:34 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:35 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:35 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:35 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:35 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:35 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:41:36 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:41:36 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Tooltip Number Formatting" classname="Test Cases/Sections/Tooltip Number Formatting" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:41:36 - [TEST_CASE][PASSED] - Test Cases/Sections/Tooltip Number Formatting: Test Cases/Sections/Tooltip Number Formatting
+
+2018-11-22 09:41:36 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.showSetting: com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:41:36 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:37 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:41:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:41:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:41:39 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:39 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:39 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:39 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:39 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:39 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:39 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:39 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:40 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:40 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:40 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:40 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:40 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:40 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:41 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:41 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:41 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:42 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:42 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:41:43 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:41:43 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Deviation" classname="Test Cases/Sections/Deviation" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:41:43 - [TEST_CASE][PASSED] - Test Cases/Sections/Deviation: Test Cases/Sections/Deviation
+
+2018-11-22 09:41:44 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.showSetting: com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:41:44 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:44 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:41:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:41:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:41:46 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.enableToggle: com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:41:46 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:46 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.enableToggle is PASSED
+
+2018-11-22 09:41:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:47 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:41:47 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:41:47 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Title_Toggle" classname="Test Cases/Sections/Title_Toggle" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:41:47 - [TEST_CASE][PASSED] - Test Cases/Sections/Title_Toggle: Test Cases/Sections/Title_Toggle
+
+2018-11-22 09:41:48 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.EnableTitleToggle: com.powerbi.components.ChartSelect.EnableTitleToggle is PASSED
+
+2018-11-22 09:41:48 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:48 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.EnableTitleToggle is PASSED
+
+2018-11-22 09:41:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:41:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:41:50 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:50 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:51 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:51 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:51 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:52 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:52 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:52 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:53 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:41:53 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setAlignment: com.powerbi.components.ChartSelect.setAlignment is PASSED
+
+2018-11-22 09:41:53 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:53 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setAlignment is PASSED
+
+2018-11-22 09:41:53 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:54 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:54 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:41:54 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.selectValue: com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:55 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:56 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.selectValue is PASSED
+
+2018-11-22 09:41:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:41:57 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideTitleToggle: com.powerbi.components.ChartSelect.hideTitleToggle is PASSED
+
+2018-11-22 09:41:57 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:57 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideTitleToggle is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Background" classname="Test Cases/Sections/Background" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:41:57 - [TEST_CASE][PASSED] - Test Cases/Sections/Background: Test Cases/Sections/Background
+
+2018-11-22 09:41:57 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.EnableSetting: com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:41:57 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:41:58 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:41:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:42:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:42:00 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:00 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:00 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:00 - [TEST_STEP][PASSED] - setText: Text '78' is set on object 'Object Repository/Page_MultipleAxesChart - Power BI/span_Transparency'
+
+2018-11-22 09:42:02 - [MESSAGE][PASSED] - Text '78' is set on object 'Object Repository/Page_MultipleAxesChart - Power BI/span_Transparency'
+
+2018-11-22 09:42:02 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.changeSlider: com.powerbi.components.ChartSelect.changeSlider is PASSED
+
+2018-11-22 09:42:02 - [MESSAGE][PASSED] - Attribute 'style' of object '' is: 'right: 22%;'
+
+2018-11-22 09:42:02 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.changeSlider is PASSED
+
+2018-11-22 09:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:42:02 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:42:03 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:42:03 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Lock aspect" classname="Test Cases/Sections/Lock aspect" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:42:03 - [TEST_CASE][PASSED] - Test Cases/Sections/Lock aspect: Test Cases/Sections/Lock aspect
+
+2018-11-22 09:42:04 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.EnableSetting: com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:42:04 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:05 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:42:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:42:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:42:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:42:07 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:42:07 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:42:07 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/General" classname="Test Cases/Sections/General" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:42:07 - [TEST_CASE][PASSED] - Test Cases/Sections/General: Test Cases/Sections/General
+
+2018-11-22 09:42:08 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.showSetting: com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:42:08 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:08 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.showSetting is PASSED
+
+2018-11-22 09:42:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:42:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:42:10 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:42:10 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:11 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:42:11 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:42:11 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:11 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:42:11 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:42:11 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:12 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:42:12 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setValue: com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:42:12 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:13 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setValue is PASSED
+
+2018-11-22 09:42:13 - [TEST_STEP][PASSED] - setText: Text 'Title Text' is set on object 'Object Repository/Page_MultipleAxesChart - Power BI/textarea_Alt Text_paragraph ng'
+
+2018-11-22 09:42:14 - [MESSAGE][PASSED] - Text 'Title Text' is set on object 'Object Repository/Page_MultipleAxesChart - Power BI/textarea_Alt Text_paragraph ng'
+
+2018-11-22 09:42:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:42:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:42:16 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:42:16 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:42:17 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Border" classname="Test Cases/Sections/Border" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:42:17 - [TEST_CASE][PASSED] - Test Cases/Sections/Border: Test Cases/Sections/Border
+
+2018-11-22 09:42:17 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.EnableSetting: com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:42:17 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:19 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:42:19 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:19 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:19 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:42:20 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:42:21 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:42:21 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sections/Visual header" classname="Test Cases/Sections/Visual header" status="PASSED">
+         <system-out><![CDATA[2018-11-22 09:42:21 - [TEST_CASE][PASSED] - Test Cases/Sections/Visual header: Test Cases/Sections/Visual header
+
+2018-11-22 09:42:22 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.EnableSetting: com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:42:22 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:22 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.EnableSetting is PASSED
+
+2018-11-22 09:42:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-22 09:42:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-22 09:42:24 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:24 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:25 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:25 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:25 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:26 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:26 - [TEST_STEP][PASSED] - setText: Text '78' is set on object 'Object Repository/Page_MultipleAxesChart - Power BI/span_Transparency'
+
+2018-11-22 09:42:27 - [MESSAGE][PASSED] - Text '78' is set on object 'Object Repository/Page_MultipleAxesChart - Power BI/span_Transparency'
+
+2018-11-22 09:42:27 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.changeSlider: com.powerbi.components.ChartSelect.changeSlider is PASSED
+
+2018-11-22 09:42:28 - [MESSAGE][PASSED] - Attribute 'style' of object '' is: 'right: 22%;'
+
+2018-11-22 09:42:28 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.changeSlider is PASSED
+
+2018-11-22 09:42:28 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.setColor: com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:28 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:29 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.setColor is PASSED
+
+2018-11-22 09:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MultipleAxesChart - Power BI/div_Revert to default' is clicked on
+
+2018-11-22 09:42:30 - [TEST_STEP][PASSED] - com.powerbi.components.ChartSelect.hideSetting: com.powerbi.components.ChartSelect.hideSetting is PASSED
+
+2018-11-22 09:42:30 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2018-11-22 09:42:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-11-22 09:42:30 - [MESSAGE][PASSED] - com.powerbi.components.ChartSelect.hideSetting is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-22 09:39:46 - [TEST_SUITE][PASSED] - AdvancedColumnBar: Test Cases/Sections/Visual header]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

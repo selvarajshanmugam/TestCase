@@ -15,9 +15,22 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'com.powerbi.components.ChartSelect.EnableSetting'(GlobalVariable.sec_Border)
 
+WebUI.delay(2)
+
+List<String> initialValue = CustomKeywords.'com.powerbi.components.ChartSelect.getBorder'()
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setColor'(GlobalVariable.lbl_color, GlobalVariable.color)
 
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeDiv'('VisualObject/div_vc Body', GlobalVariable.attr_border), 
+    GlobalVariable.color, false)
+
 WebUI.click(findTestObject('Page_MultipleAxesChart - Power BI/div_Revert to default'))
+
+WebUI.delay(2)
+
+List<String> finalValue = CustomKeywords.'com.powerbi.components.ChartSelect.getBorder'()
+
+CustomKeywords.'com.powerbi.components.ChartSelect.compareList'(initialValue, finalValue)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.hideSetting'(GlobalVariable.sec_Border)
 

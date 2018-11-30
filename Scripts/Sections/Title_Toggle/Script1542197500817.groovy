@@ -17,19 +17,50 @@ CustomKeywords.'com.powerbi.components.ChartSelect.EnableTitleToggle'(GlobalVari
 
 WebUI.delay(2)
 
+List<String> initialValue = CustomKeywords.'com.powerbi.components.ChartSelect.getTitleToggle'()
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_titleText, GlobalVariable.titleText)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('VisualObject/button_Back to report'))
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkTitleDiv'('VisualObject/div_visual Title'), GlobalVariable.titleText, 
+    false)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setColor'(GlobalVariable.lbl_Fontcolor, GlobalVariable.color)
 
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeDiv'('VisualObject/div_visual Title', 
+        GlobalVariable.attr_color), GlobalVariable.color, false)
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setColor'(GlobalVariable.lbl_backgroundcolor, GlobalVariable.color)
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeDiv'('VisualObject/div_visual Title', 
+        GlobalVariable.attr_backgroundColor), GlobalVariable.color, false)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setAlignment'(GlobalVariable.Alignment)
 
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeDiv'('VisualObject/div_visual Title', 
+        GlobalVariable.attr_textAlign), GlobalVariable.textalign, false)
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_TextSize, GlobalVariable.fontSize)
+
+not_run: WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeDiv'('VisualObject/div_visual Title', 
+        GlobalVariable.attr_fontsize), GlobalVariable.font_size_pxl, false)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.selectValue'(GlobalVariable.lbl_fontfamily, GlobalVariable.fontType)
 
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeDiv'('VisualObject/div_visual Title', 
+        GlobalVariable.attr_fontfamily), GlobalVariable.fontType, false)
+
 WebUI.click(findTestObject('Page_MultipleAxesChart - Power BI/div_Revert to default'))
+
+
+WebUI.delay(2)
+
+List<String> finalValue = CustomKeywords.'com.powerbi.components.ChartSelect.getTitleToggle'()
+
+CustomKeywords.'com.powerbi.components.ChartSelect.compareList'(initialValue, finalValue)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.hideTitleToggle'(GlobalVariable.sec_Title)
 

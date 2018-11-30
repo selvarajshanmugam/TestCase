@@ -17,17 +17,21 @@ WebUI.callTestCase(findTestCase('Login_Power PI'), [:], FailureHandling.STOP_ON_
 
 WebUI.callTestCase(findTestCase('Edit Mode_Power PI'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Sections/Title'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sections/Title'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Sections/X Axis'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sections/X Axis'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Sections/Legend'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sections/Legend'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Sections/Data Label'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sections/Data Label'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Sections/Tooltip'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sections/Tooltip'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Sections/Appearance'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sections/Appearance'), [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.callTestCase(findTestCase('Sections/Data colors'), [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.callTestCase(findTestCase('Sections/Variance'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Sections/Data Label Number Formatting'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -47,5 +51,5 @@ WebUI.callTestCase(findTestCase('Sections/Border'), [:], FailureHandling.STOP_ON
 
 WebUI.callTestCase(findTestCase('Sections/Visual header'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

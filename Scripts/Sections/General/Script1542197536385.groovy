@@ -17,6 +17,7 @@ CustomKeywords.'com.powerbi.components.ChartSelect.showSetting'(GlobalVariable.s
 
 WebUI.delay(2)
 
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_XPosition, GlobalVariable.X)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_YPosition, GlobalVariable.Y)

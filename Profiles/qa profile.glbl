@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Multiple Axis QA'</initValue>
+      <initValue>'SampleCheck'</initValue>
       <name>titleText</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -96,7 +96,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Million'</initValue>
+      <initValue>'Thousand'</initValue>
       <name>ScalingFactor</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -111,7 +111,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2'</initValue>
+      <initValue>'3'</initValue>
       <name>NumberOfDecimal</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -121,7 +121,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/'</initValue>
+      <initValue>'.'</initValue>
       <name>DecimalSeparator</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -491,7 +491,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Black, 20% lighter'</initValue>
+      <initValue>'#fd817e'</initValue>
       <name>color</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -593,5 +593,170 @@
       <description></description>
       <initValue>'https://app.powerbi.com/groups/me/reports/e2ebdbf7-fdfb-443e-96b2-537052dc9448?ctid=bcdf20ca-ddec-4f48-a7f4-dcc110f757f5'</initValue>
       <name>loginURLAdvanced</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'20px'</initValue>
+      <name>font_size_pxl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'color'</initValue>
+      <name>attr_color</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'font-size'</initValue>
+      <name>attr_fontsize</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'font-family'</initValue>
+      <name>attr_fontfamily</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fill'</initValue>
+      <name>attr_fill</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'background-color'</initValue>
+      <name>attr_backgroundColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'text-align'</initValue>
+      <name>attr_textAlign</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'right'</initValue>
+      <name>textalign</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'border'</initValue>
+      <name>attr_border</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'border-color'</initValue>
+      <name>attr_bordercolor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Length'</initValue>
+      <name>lbl_Length</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'11'</initValue>
+      <name>Length</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Show First / Last'</initValue>
+      <name>toggle_ShowFirstLast</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ON'</initValue>
+      <name>sharedTooltipStatus</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Data Colors'</initValue>
+      <name>sec_DataColors</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Variance'</initValue>
+      <name>sec_Variance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'+ Variance'</initValue>
+      <name>lbl_VariancePlus</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'- Variance'</initValue>
+      <name>lbl_VarianceMinus</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sort Variance'</initValue>
+      <name>lbl_SortVariance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Negative is Good'</initValue>
+      <name>toggle_Negative</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Shape Type'</initValue>
+      <name>lbl_ShapeType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'K'</initValue>
+      <name>ScalingFactorSuffix</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Square'</initValue>
+      <name>ShapeType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'d'</initValue>
+      <name>ShapeTypeAttribute</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'M 0.5 0.5 L 8.5 0.5 8.5 8.5 0.5 8.5 Z'</initValue>
+      <name>ShapeTypeAttValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ascending'</initValue>
+      <name>Ascending</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Descending'</initValue>
+      <name>Descending</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NotMatched'</initValue>
+      <name>Null</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ascending'</initValue>
+      <name>SortVariance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'value'</initValue>
+      <name>value</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'style'</initValue>
+      <name>attr_style</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aria-checked'</initValue>
+      <name>ariaChecked</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'title'</initValue>
+      <name>attr_title</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,185 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AdvancedColumnBar,Firefox 63.0,,2018-11-22 09:39:46,2018-11-22 09:42:40,2m - 53.825s,PASSED
+,,,,,,
+Test Cases/Login_Power PI,Firefox 63.0,Login to Power PI with respective username and Password,2018-11-22 09:39:47,2018-11-22 09:40:26,38.748s,PASSED
+openBrowser,Firefox 63.0,,2018-11-22 09:39:49,2018-11-22 09:40:06,17.636s,PASSED
+maximizeWindow,Firefox 63.0,,2018-11-22 09:40:06,2018-11-22 09:40:10,3.554s,PASSED
+deleteAllCookies,Firefox 63.0,,2018-11-22 09:40:10,2018-11-22 09:40:10,0.034s,PASSED
+navigateToUrl,Firefox 63.0,,2018-11-22 09:40:10,2018-11-22 09:40:13,2.736s,PASSED
+waitForPageLoad,Firefox 63.0,,2018-11-22 09:40:13,2018-11-22 09:40:13,0.145s,PASSED
+waitForElementVisible,Firefox 63.0,,2018-11-22 09:40:13,2018-11-22 09:40:13,0.404s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:13,2018-11-22 09:40:16,2.536s,PASSED
+setText,Firefox 63.0,,2018-11-22 09:40:16,2018-11-22 09:40:16,0.274s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:16,2018-11-22 09:40:16,0.330s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:40:16,2018-11-22 09:40:18,2.041s,PASSED
+setEncryptedText,Firefox 63.0,,2018-11-22 09:40:18,2018-11-22 09:40:19,0.231s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:19,2018-11-22 09:40:20,1.382s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:20,2018-11-22 09:40:26,5.913s,PASSED
+,,,,,,
+Test Cases/Edit Mode_Power PI,Firefox 63.0,,2018-11-22 09:40:26,2018-11-22 09:40:40,14.215s,PASSED
+waitForElementPresent,Firefox 63.0,,2018-11-22 09:40:26,2018-11-22 09:40:29,2.859s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:29,2018-11-22 09:40:31,1.526s,PASSED
+waitForPageLoad,Firefox 63.0,,2018-11-22 09:40:31,2018-11-22 09:40:31,0.234s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:40:31,2018-11-22 09:40:33,2.003s,PASSED
+mouseOver,Firefox 63.0,,2018-11-22 09:40:33,2018-11-22 09:40:36,2.632s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:36,2018-11-22 09:40:37,1.144s,PASSED
+waitForElementPresent,Firefox 63.0,,2018-11-22 09:40:37,2018-11-22 09:40:37,0.035s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:37,2018-11-22 09:40:37,0.512s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:37,2018-11-22 09:40:39,1.453s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:39,2018-11-22 09:40:40,1.345s,PASSED
+,,,,,,
+Test Cases/Sections/Title,Firefox 63.0,,2018-11-22 09:40:40,2018-11-22 09:40:48,7.777s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:40,2018-11-22 09:40:41,0.761s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:40:41,2018-11-22 09:40:42,0.412s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:40:42,2018-11-22 09:40:42,0.793s,PASSED
+waitForPageLoad,Firefox 63.0,,2018-11-22 09:40:42,2018-11-22 09:40:42,0.059s,PASSED
+setText,Firefox 63.0,,2018-11-22 09:40:42,2018-11-22 09:40:43,0.557s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:40:43,2018-11-22 09:40:45,2.037s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:40:45,2018-11-22 09:40:46,1.305s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:46,2018-11-22 09:40:47,0.658s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:40:47,2018-11-22 09:40:48,0.786s,PASSED
+,,,,,,
+Test Cases/Sections/X Axis,Firefox 63.0,,2018-11-22 09:40:48,2018-11-22 09:41:01,12.751s,PASSED
+com.powerbi.components.ChartSelect.EnableSetting,Firefox 63.0,,2018-11-22 09:40:48,2018-11-22 09:40:49,0.817s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:40:49,2018-11-22 09:40:51,2.002s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:40:51,2018-11-22 09:40:52,0.585s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:40:52,2018-11-22 09:40:54,2.001s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:40:54,2018-11-22 09:40:54,0.206s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:40:54,2018-11-22 09:40:55,1.350s,PASSED
+com.powerbi.components.ChartSelect.enableToggle,Firefox 63.0,,2018-11-22 09:40:55,2018-11-22 09:40:57,1.397s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:40:57,2018-11-22 09:40:57,0.525s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:40:57,2018-11-22 09:40:59,2.003s,PASSED
+click,Firefox 63.0,,2018-11-22 09:40:59,2018-11-22 09:41:00,0.686s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:41:00,2018-11-22 09:41:01,0.751s,PASSED
+,,,,,,
+Test Cases/Sections/Legend,Firefox 63.0,,2018-11-22 09:41:01,2018-11-22 09:41:11,10.878s,PASSED
+com.powerbi.components.ChartSelect.EnableSetting,Firefox 63.0,,2018-11-22 09:41:01,2018-11-22 09:41:02,0.873s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:41:02,2018-11-22 09:41:04,2.003s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:41:04,2018-11-22 09:41:04,0.606s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:41:04,2018-11-22 09:41:05,0.817s,PASSED
+com.powerbi.components.ChartSelect.enableToggle,Firefox 63.0,,2018-11-22 09:41:05,2018-11-22 09:41:07,1.338s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:07,2018-11-22 09:41:07,0.816s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:41:07,2018-11-22 09:41:09,1.870s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:41:09,2018-11-22 09:41:10,0.862s,PASSED
+click,Firefox 63.0,,2018-11-22 09:41:10,2018-11-22 09:41:11,0.539s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:41:11,2018-11-22 09:41:11,0.739s,PASSED
+,,,,,,
+Test Cases/Sections/Data Label,Firefox 63.0,,2018-11-22 09:41:11,2018-11-22 09:41:22,10.772s,PASSED
+com.powerbi.components.ChartSelect.EnableSetting,Firefox 63.0,,2018-11-22 09:41:12,2018-11-22 09:41:13,0.880s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:41:13,2018-11-22 09:41:15,2.003s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:41:15,2018-11-22 09:41:16,1.020s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:16,2018-11-22 09:41:16,0.420s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:41:16,2018-11-22 09:41:17,1.286s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:17,2018-11-22 09:41:18,0.337s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:18,2018-11-22 09:41:18,0.634s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:18,2018-11-22 09:41:19,0.381s,PASSED
+com.powerbi.components.ChartSelect.enableToggle,Firefox 63.0,,2018-11-22 09:41:19,2018-11-22 09:41:20,1.307s,PASSED
+click,Firefox 63.0,,2018-11-22 09:41:20,2018-11-22 09:41:21,1.079s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:41:21,2018-11-22 09:41:22,0.999s,PASSED
+,,,,,,
+Test Cases/Sections/Tooltip,Firefox 63.0,,2018-11-22 09:41:22,2018-11-22 09:41:33,10.481s,PASSED
+com.powerbi.components.ChartSelect.EnableSetting,Firefox 63.0,,2018-11-22 09:41:23,2018-11-22 09:41:23,0.720s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:41:23,2018-11-22 09:41:25,2.002s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:41:25,2018-11-22 09:41:26,1.030s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:41:26,2018-11-22 09:41:27,0.982s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:27,2018-11-22 09:41:28,0.304s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:41:28,2018-11-22 09:41:30,1.882s,PASSED
+com.powerbi.components.ChartSelect.enableToggle,Firefox 63.0,,2018-11-22 09:41:30,2018-11-22 09:41:31,1.418s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:41:31,2018-11-22 09:41:32,0.698s,PASSED
+click,Firefox 63.0,,2018-11-22 09:41:32,2018-11-22 09:41:32,0.699s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:41:32,2018-11-22 09:41:33,0.380s,PASSED
+,,,,,,
+Test Cases/Sections/Appearance,Firefox 63.0,,2018-11-22 09:41:33,2018-11-22 09:41:38,5.000s,PASSED
+com.powerbi.components.ChartSelect.showSetting,Firefox 63.0,,2018-11-22 09:41:33,2018-11-22 09:41:34,0.782s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:41:34,2018-11-22 09:41:36,2.002s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:41:36,2018-11-22 09:41:37,1.092s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:37,2018-11-22 09:41:37,0.159s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:37,2018-11-22 09:41:37,0.159s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:37,2018-11-22 09:41:37,0.141s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:41:37,2018-11-22 09:41:38,0.357s,PASSED
+,,,,,,
+Test Cases/Sections/Data Label Number Formatting,Firefox 63.0,,2018-11-22 09:41:38,2018-11-22 09:41:45,7.375s,PASSED
+com.powerbi.components.ChartSelect.showSetting,Firefox 63.0,,2018-11-22 09:41:38,2018-11-22 09:41:39,0.647s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:41:39,2018-11-22 09:41:41,2.001s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:41,2018-11-22 09:41:41,0.120s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:41,2018-11-22 09:41:41,0.223s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:41,2018-11-22 09:41:41,0.167s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:41:41,2018-11-22 09:41:42,1.237s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:42,2018-11-22 09:41:43,0.394s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:43,2018-11-22 09:41:43,0.167s,PASSED
+click,Firefox 63.0,,2018-11-22 09:41:43,2018-11-22 09:41:44,1.092s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:41:44,2018-11-22 09:41:45,1.060s,PASSED
+,,,,,,
+Test Cases/Sections/Tooltip Number Formatting,Firefox 63.0,,2018-11-22 09:41:45,2018-11-22 09:41:51,5.803s,PASSED
+com.powerbi.components.ChartSelect.showSetting,Firefox 63.0,,2018-11-22 09:41:45,2018-11-22 09:41:46,0.617s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:41:46,2018-11-22 09:41:48,2.003s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:48,2018-11-22 09:41:48,0.130s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:48,2018-11-22 09:41:48,0.119s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:48,2018-11-22 09:41:48,0.171s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:41:48,2018-11-22 09:41:49,0.827s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:49,2018-11-22 09:41:49,0.190s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:49,2018-11-22 09:41:50,0.154s,PASSED
+click,Firefox 63.0,,2018-11-22 09:41:50,2018-11-22 09:41:50,0.378s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:41:50,2018-11-22 09:41:51,0.966s,PASSED
+,,,,,,
+Test Cases/Sections/Deviation,Firefox 63.0,,2018-11-22 09:41:51,2018-11-22 09:41:55,4.538s,PASSED
+com.powerbi.components.ChartSelect.showSetting,Firefox 63.0,,2018-11-22 09:41:51,2018-11-22 09:41:52,0.637s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:41:52,2018-11-22 09:41:54,2.002s,PASSED
+com.powerbi.components.ChartSelect.enableToggle,Firefox 63.0,,2018-11-22 09:41:54,2018-11-22 09:41:54,0.520s,PASSED
+click,Firefox 63.0,,2018-11-22 09:41:54,2018-11-22 09:41:55,0.673s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:41:55,2018-11-22 09:41:55,0.422s,PASSED
+,,,,,,
+Test Cases/Sections/Title_Toggle,Firefox 63.0,,2018-11-22 09:41:55,2018-11-22 09:42:06,10.809s,PASSED
+com.powerbi.components.ChartSelect.EnableTitleToggle,Firefox 63.0,,2018-11-22 09:41:56,2018-11-22 09:41:57,0.784s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:41:57,2018-11-22 09:41:59,2.000s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:41:59,2018-11-22 09:41:59,0.583s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:41:59,2018-11-22 09:42:01,1.971s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:42:01,2018-11-22 09:42:03,1.599s,PASSED
+com.powerbi.components.ChartSelect.setAlignment,Firefox 63.0,,2018-11-22 09:42:03,2018-11-22 09:42:04,1.053s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:42:04,2018-11-22 09:42:04,0.415s,PASSED
+com.powerbi.components.ChartSelect.selectValue,Firefox 63.0,,2018-11-22 09:42:04,2018-11-22 09:42:05,1.083s,PASSED
+click,Firefox 63.0,,2018-11-22 09:42:05,2018-11-22 09:42:06,0.381s,PASSED
+com.powerbi.components.ChartSelect.hideTitleToggle,Firefox 63.0,,2018-11-22 09:42:06,2018-11-22 09:42:06,0.549s,PASSED
+,,,,,,
+Test Cases/Sections/Background,Firefox 63.0,,2018-11-22 09:42:06,2018-11-22 09:42:12,5.523s,PASSED
+com.powerbi.components.ChartSelect.EnableSetting,Firefox 63.0,,2018-11-22 09:42:06,2018-11-22 09:42:07,0.412s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:42:07,2018-11-22 09:42:09,2.002s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:42:09,2018-11-22 09:42:10,0.816s,PASSED
+setText,Firefox 63.0,,2018-11-22 09:42:10,2018-11-22 09:42:10,0.317s,PASSED
+com.powerbi.components.ChartSelect.changeSlider,Firefox 63.0,,2018-11-22 09:42:10,2018-11-22 09:42:10,0.144s,PASSED
+click,Firefox 63.0,,2018-11-22 09:42:10,2018-11-22 09:42:11,0.929s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:42:11,2018-11-22 09:42:12,0.684s,PASSED
+,,,,,,
+Test Cases/Sections/Lock aspect,Firefox 63.0,,2018-11-22 09:42:12,2018-11-22 09:42:16,4.663s,PASSED
+com.powerbi.components.ChartSelect.EnableSetting,Firefox 63.0,,2018-11-22 09:42:12,2018-11-22 09:42:13,1.349s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:42:13,2018-11-22 09:42:15,2.002s,PASSED
+click,Firefox 63.0,,2018-11-22 09:42:15,2018-11-22 09:42:16,0.611s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:42:16,2018-11-22 09:42:16,0.343s,PASSED
+,,,,,,
+Test Cases/Sections/General,Firefox 63.0,,2018-11-22 09:42:16,2018-11-22 09:42:25,8.908s,PASSED
+com.powerbi.components.ChartSelect.showSetting,Firefox 63.0,,2018-11-22 09:42:17,2018-11-22 09:42:17,0.638s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:42:17,2018-11-22 09:42:19,2.001s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:42:19,2018-11-22 09:42:20,0.350s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:42:20,2018-11-22 09:42:20,0.222s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:42:20,2018-11-22 09:42:21,0.614s,PASSED
+com.powerbi.components.ChartSelect.setValue,Firefox 63.0,,2018-11-22 09:42:21,2018-11-22 09:42:22,1.007s,PASSED
+setText,Firefox 63.0,,2018-11-22 09:42:22,2018-11-22 09:42:22,0.842s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:42:22,2018-11-22 09:42:24,2.002s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:42:24,2018-11-22 09:42:25,0.934s,PASSED
+,,,,,,
+Test Cases/Sections/Border,Firefox 63.0,,2018-11-22 09:42:25,2018-11-22 09:42:31,5.623s,PASSED
+com.powerbi.components.ChartSelect.EnableSetting,Firefox 63.0,,2018-11-22 09:42:26,2018-11-22 09:42:28,2.031s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:42:28,2018-11-22 09:42:29,1.216s,PASSED
+click,Firefox 63.0,,2018-11-22 09:42:29,2018-11-22 09:42:30,1.528s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:42:30,2018-11-22 09:42:31,0.545s,PASSED
+,,,,,,
+Test Cases/Sections/Visual header,Firefox 63.0,,2018-11-22 09:42:31,2018-11-22 09:42:39,7.867s,PASSED
+com.powerbi.components.ChartSelect.EnableSetting,Firefox 63.0,,2018-11-22 09:42:31,2018-11-22 09:42:33,1.525s,PASSED
+delay,Firefox 63.0,,2018-11-22 09:42:33,2018-11-22 09:42:35,2.003s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:42:35,2018-11-22 09:42:36,0.766s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:42:36,2018-11-22 09:42:36,0.870s,PASSED
+setText,Firefox 63.0,,2018-11-22 09:42:36,2018-11-22 09:42:37,0.313s,PASSED
+com.powerbi.components.ChartSelect.changeSlider,Firefox 63.0,,2018-11-22 09:42:37,2018-11-22 09:42:37,0.109s,PASSED
+com.powerbi.components.ChartSelect.setColor,Firefox 63.0,,2018-11-22 09:42:37,2018-11-22 09:42:38,1.075s,PASSED
+click,Firefox 63.0,,2018-11-22 09:42:38,2018-11-22 09:42:38,0.476s,PASSED
+com.powerbi.components.ChartSelect.hideSetting,Firefox 63.0,,2018-11-22 09:42:38,2018-11-22 09:42:39,0.418s,PASSED

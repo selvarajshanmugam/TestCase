@@ -17,19 +17,65 @@ CustomKeywords.'com.powerbi.components.ChartSelect.showSetting'(GlobalVariable.s
 
 WebUI.delay(2)
 
+List<String> initialValue = CustomKeywords.'com.powerbi.components.ChartSelect.getTooltipNumber'()
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_noOfDecimal, GlobalVariable.NumberOfDecimal)
+
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('VisualObject/rect_highcharts series group series-0'))
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkNoOfDecimal'('VisualObject/tspan_highcharts tooltip value', 
+        GlobalVariable.DecimalSeparator), GlobalVariable.NumberOfDecimal, false)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_thousandSeparator, GlobalVariable.ThousandSeparator)
 
+WebUI.mouseOver(findTestObject('VisualObject/rect_highcharts series group series-0'))
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkThousandSeparator'('VisualObject/tspan_highcharts tooltip value', 
+        GlobalVariable.DecimalSeparator), GlobalVariable.ThousandSeparator, false)
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_decimalSeparator, GlobalVariable.DecimalSeparator)
+
+WebUI.mouseOver(findTestObject('VisualObject/rect_highcharts series group series-0'))
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkDecimalSeparator'('VisualObject/tspan_highcharts tooltip value', 
+        GlobalVariable.NumberOfDecimal), GlobalVariable.DecimalSeparator, false)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.selectValue'(GlobalVariable.lbl_scalingFactor, GlobalVariable.ScalingFactor)
 
+WebUI.mouseOver(findTestObject('VisualObject/rect_highcharts series group series-0'))
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkScalingFactor'('VisualObject/tspan_highcharts tooltip value'), 
+    GlobalVariable.ScalingFactorSuffix, false)
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_Prefix, GlobalVariable.Prefix)
+
+WebUI.delay(2)
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkPrefix'('VisualObject/tspan_highcharts tooltip value'), 
+    GlobalVariable.Prefix, false)
+
+WebUI.mouseOver(findTestObject('VisualObject/rect_highcharts series group series-0'))
+
+WebUI.delay(2)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.setValue'(GlobalVariable.lbl_suffix, GlobalVariable.Suffix)
 
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('VisualObject/rect_highcharts series group series-0'))
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkSuffix'('VisualObject/tspan_highcharts tooltip value'), 
+    GlobalVariable.Suffix, false)
+
 WebUI.click(findTestObject('Page_MultipleAxesChart - Power BI/div_Revert to default'))
+
+WebUI.delay(2)
+
+List<String> finalValue = CustomKeywords.'com.powerbi.components.ChartSelect.getTooltipNumber'()
+
+CustomKeywords.'com.powerbi.components.ChartSelect.compareList'(initialValue, finalValue)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.hideSetting'(GlobalVariable.sec_TooltipNumber)
 

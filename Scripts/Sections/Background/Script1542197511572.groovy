@@ -18,13 +18,24 @@ CustomKeywords.'com.powerbi.components.ChartSelect.EnableSetting'(GlobalVariable
 
 WebUI.delay(2)
 
+List<String> initialValue = CustomKeywords.'com.powerbi.components.ChartSelect.getBackground'()
+
 CustomKeywords.'com.powerbi.components.ChartSelect.setColor'(GlobalVariable.lbl_color, GlobalVariable.color)
+
+WebUI.verifyMatch(CustomKeywords.'com.powerbi.components.ChartSelect.checkAttributeDiv'('VisualObject/div_vc Body', 
+        GlobalVariable.attr_backgroundColor), GlobalVariable.color, false)
 
 WebUI.setText(findTestObject('Page_MultipleAxesChart - Power BI/span_Transparency'), GlobalVariable.Transparency)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.changeSlider'(GlobalVariable.lbl_Transparency, GlobalVariable.Transparency)
 
 WebUI.click(findTestObject('Page_MultipleAxesChart - Power BI/div_Revert to default'))
+
+WebUI.delay(2)
+
+List<String> finalValue = CustomKeywords.'com.powerbi.components.ChartSelect.getBackground'()
+
+CustomKeywords.'com.powerbi.components.ChartSelect.compareList'(initialValue, finalValue)
 
 CustomKeywords.'com.powerbi.components.ChartSelect.hideSetting'(GlobalVariable.sec_Background)
 
